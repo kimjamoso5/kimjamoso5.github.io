@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0f0f0f;
+  color: #fff;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container{
+    background-color: #20242d;
+    width: 1050px;
+    height: 500px;
+    border-radius: 40px;
+    align-items: center;
+    margin-left: 12%;
+    margin-top: 50px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+ 
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ccc;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+  color: #00e5ff;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.text-content {
+  max-width: 50%;
+   margin-left: 10%;
+ 
+}
+
+.text-content h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.text-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.text-content span {
+  color: #00e5ff;
+}
+
+.text-content p {
+  margin: 20px 0;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+.social-icons {
+  margin: 20px 0;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  filter: brightness(0) invert(1);
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #00e5ff;
+  color: #000;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #00c3e3;
+}
+
+.image-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+   margin-right: 10%;
+}
+
+.glow-border {
+  background: #00e5ff;
+  padding: 10px;
+  border-radius: 80%;
+  box-shadow: 0 0 40px #00e5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glow-border img {
+  width: 100%;
+  border-radius: 80%;
+}
+.about{
+  text-align: center;
+  padding-top: 90px;
+}
+.about h2{
+  margin-bottom: 20px;
+  size: 20px;
+}
+.about p{
+ font-family: Arial, Helvetica, sans-serif;
+ color: #aaa;
+}
